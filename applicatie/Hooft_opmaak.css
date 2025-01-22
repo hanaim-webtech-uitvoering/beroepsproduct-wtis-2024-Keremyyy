@@ -1,0 +1,93 @@
+body {
+    background-color: rgb( 213, 197, 169);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 75px; 
+    
+    }
+
+.Vluchtinfo_Table{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.rij1{
+    background-color: lightgray;
+}
+.rij2{
+    background-color: lightgray;
+}
+.rij3{
+    background-color: lightgray;
+}
+
+.hooftrij{
+    background-color: gray;
+}
+
+
+
+.Hoofttable{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-bottom: 60px;
+
+}
+
+.Rows{
+
+background-color: lightgrey;
+}
+
+
+
+
+.Hoofttable{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-bottom: 60px;
+
+}
+
+.Rows{
+
+background-color: lightgrey;
+}
+
+.Vlucht_toevoegen:hover {
+    background-color: green;
+}
+.Gebruiker_Toevoegen:hover {
+    background-color: orchid;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: burlywood;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
